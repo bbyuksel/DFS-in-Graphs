@@ -3,11 +3,16 @@
 ## SUBJECT: Maze Problem with Graph
 ## PROBLEM: 
 In this work, an algorithm will be designed to find out whether there is a path from the starting cell (1,1) to the ending cell (N, N) by DFS (Depth First Search) method for a given N number and a given NxN maze. Perform DFS with a recursive approach. The semi-code for the recursive DFS operation is as follows:
-***DFS (to visit a vertex v)
-{
-Mark v as visited
-Recursively visit all unmarked vertices w adjacent to v
-}***
+
+*DFS (to visit a vertex v)*
+
+*{*
+
+*Mark v as visited*
+
+*Recursively visit all unmarked vertices w adjacent to v*
+
+*}*
 ## METHOD
   * For NxN matrix, [N+1]x[N+1] is defined in the main function.
   * For the target path, NxN matrix is defined and all cells assigned as 0 value.
